@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        flex ex design
+    </title>
+    <style>
+        .border{
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+            font-size: 20px;
+            font-weight: bold;
+            width: 600px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .d1,.d2,.d3{
+            display: flex;
+           
+        }
+        .p1,.p2,.p3{
+          margin-bottom: 20px;
+          flex: 2;
+        }
+        .b1,.b2,.b3{
+           color: white;
+           border: none;
+           background-color: blue;
+           border-radius: 15px;
+           padding-left: 12px;
+           padding-top: 7px;
+           padding-bottom: 7px;
+           padding-right: 12px;
+        }
+
+    </style>
+    <body>
+        <div class="border">
+
+            <div class="d1">        
+             <div class="p1">
+                Home
+            </div>
+            <div>
+                <button class="b1">
+                    14
+                </button>
+            </div>
+         </div> 
+
+            <div class="d2">
+               <div class="p2">
+                Notifications
+            </div>
+            <div>
+             <button class="b2">3</button>
+            </div>
+            </div>
+
+            <div class="d3">
+                <div class="p3">
+                 Messages
+             </div>
+             <div >
+              <button class="b3">5</button>
+             </div>
+             </div>
+
+           
+
+
+
+        </div>
+    </body>
+</head>

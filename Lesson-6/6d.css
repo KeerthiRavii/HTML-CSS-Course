@@ -1,0 +1,14 @@
+.model{
+    font-size: 25px;
+    font-family: roboto;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.line{
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    font-family: montserrat;
+}

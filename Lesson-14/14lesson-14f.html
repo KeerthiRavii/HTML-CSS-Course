@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            14f
+        </title>
+        <style>
+            .flexbox{
+                display: flex;
+                
+            }
+            .f1{
+               position: fixed;
+               background-color: black;
+               left: 0;
+             
+               bottom: 0;
+               top: 0;
+               width: 80px;
+               padding-top: 10px;
+            }
+            .i1,.i2,.i3{
+           height: 60px;
+           border-radius: 30px;
+           width: 60px;
+           margin-bottom: 10px;
+           }
+           .f2{
+            position: fixed;
+             left: 80px;
+             top: 0;
+             color:grey;
+             bottom: 0;
+             display: flex;
+             width: 250px;
+             background-color: rgb(48, 47, 47);
+             padding-left: 15px;
+           }
+           .para{
+            width: 200px;
+           
+           }
+           .p1{
+            font-weight: bold;
+            color: white;
+            font-size:18px;
+            font-family: 'Times New Roman', Times, serif;
+           }
+           .p{
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+           }
+           .plus{
+            font-weight: bold;
+            font-size: 25px;
+            padding-top: 0px;
+           }
+        </style>
+    </head>
+    <body style="height: 3000px;">
+        <div class="flexbox">
+            <div class="f1">
+                <div>
+                <img class="i1" src="cat1.jpg">
+                </div>
+                <div> 
+                    <img class="i3" src="cat2.jpg">
+                </div>
+                <div>
+                <img class="i3" src="dog1.jpg">
+            </div>
+            </div>
+            <div class="f2">
+                <div class="para">
+                    <p class="p1"> INFO</p>
+                    <p class="p"> # new-videos</p>
+                <p class="p"> # updates</p>
+                <p class="p"> # faq</p>
+            </div>
+            <div class="flexplus">
+               <p class="plus">+</p> 
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
